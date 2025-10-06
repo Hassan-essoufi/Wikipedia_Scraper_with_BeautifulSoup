@@ -55,5 +55,4 @@ def fetch_multiple(urls):
 
 
 
-print(validate_url('https://fr.wikipedia.org/wiki/Master_System'))
 
