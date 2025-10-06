@@ -23,7 +23,7 @@ Ce projet permet d'extraire et de structurer le contenu d'articles Wikipedia en 
 
 1. Clonez le dépôt :
 	```powershell
-	git clone <url-du-repo>
+	git clone <https://github.com/Hassan-essoufi/Wikipedia_Scraper_with_BeautifulSoup>
 	```
 2. Installez les dépendances :
 	```powershell
