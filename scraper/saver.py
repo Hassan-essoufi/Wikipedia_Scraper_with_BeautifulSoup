@@ -12,9 +12,7 @@ def save_raw_html(html_doc,filname):
 def save_processed_html(html_proc, filename):
     os.makedirs("data/processed", exist_ok=True)
     filepath = os.path.join("data", "processed", filename.replace(".html", ".json"))
-
-    # Convertir le dictionnaire en JSON et l’écrire
     with open(filepath, "w", encoding="utf-8") as file:
         json.dump(html_proc, file, ensure_ascii=False, indent=4)
 
-    print(f"✅ Données structurées sauvegardées : {filepath}")
+    print(f"Données structurées sauvegardées : {filepath}")
